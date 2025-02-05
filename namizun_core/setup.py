@@ -10,5 +10,6 @@ setup(name='namizun_core',
       py_modules=["database", "udp", "time", "log", "network", "ip"],
       install_requires=['psutil==5.9.4',
                         'redis==4.3.5',
-                        'pytz==2022.6']
+                        'pytz==2022.6'],
+      py_modules=['time', 'network', 'udp', 'database', 'log', 'ip']
       )
